@@ -1,0 +1,108 @@
+/* Barre de navigation */
+
+.porotour-nav{
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 1px 1px 20px 0px #042c289c;
+    z-index: 500;
+}
+
+.porotour-nav .nav-block-container{
+    border-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0 40px;
+}
+
+.porotour-nav .nav-menu{
+    display: flex;
+}
+
+.porotour-nav .nav-menu > *{
+}
+
+.porotour-nav .nav-menu .left-nav{
+   display: flex;
+   align-items: center;
+   padding: 0px 4rem 0px 1.5625rem ;
+   border-right: 1px solid #ebebeb;
+}
+
+.porotour-nav .nav-menu .right-nav{
+   margin-left: auto;
+}
+
+.porotour-nav .nav-menu .navbar .nav-links{
+    display: flex;
+    padding-inline-start: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.porotour-nav .nav-menu .navbar .nav-links .nav-link{
+    padding: 1.5625rem 1.875rem;
+    border-right: 1px solid #ebebeb;
+}
+
+.porotour-nav .nav-menu .navbar .nav-links .nav-link a{
+    color: #111317;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: bold;
+    transition: color 1s ease;
+}
+
+.porotour-nav .nav-menu .navbar .nav-links .nav-link.active a{
+    color: #03675d;
+}
+
+.porotour-nav .nav-menu .navbar .nav-links .nav-link:hover > a{
+    color: #03675d;
+}
+
+.nav-link.nav-dropdown-link{
+    position: relative;
+}
+
+
+.porotour-nav .nav-menu .navbar .nav-links .nav-link.nav-dropdown-link > a:after{
+    content: "▼";
+    margin-left: .255em;
+    position: relative;
+    top: -2px;
+    font-size: 0.6rem;
+}
+
+.nav-link.nav-dropdown-link .nav-dropdown-content{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: #f9f9f9;
+    max-width: 500px;
+    min-width: 400px;
+    z-index: 1;
+    list-style: none;
+    padding-inline-start: 0;
+    border: 1px solid #ebebeb;
+    display: none;
+    transition: all 1s ease;
+}
+
+.nav-link.nav-dropdown-link:hover .nav-dropdown-content{
+    display: block;
+}
+
+.nav-link.nav-dropdown-link .nav-dropdown-content li{
+    padding: 12px 1.5625rem;
+}
+
+.nav-link.nav-dropdown-link .nav-dropdown-content li:hover{
+    color: #03675d;
+    background-color: #03675d1a;
+}
+
+
+
+

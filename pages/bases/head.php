@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="static/css/colors.css">
+<link rel="stylesheet" href="static/css/text.css">
+<link rel="stylesheet" href="static/css/flexbox.css">
+<link rel="stylesheet" href="static/css/margin.css">
+<link rel="stylesheet" href="static/css/dimensions.css">
+<link rel="stylesheet" href="static/css/base.css">
+<link rel="stylesheet" href="static/css/nav.css">
+<link rel="stylesheet" href="static/css/banniere.css">
+<link rel="stylesheet" href="static/css/accueil.menu.css">

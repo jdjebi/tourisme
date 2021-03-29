@@ -1,0 +1,113 @@
+
+/* Banniere */
+.banniere-margin-top{
+    margin-top: 72px;
+}
+
+.banniere{
+    position: relative;
+    height: 600px;
+}
+
+.banniere .overlay{
+    z-index: 50;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #010000a3;
+}
+
+.banniere .banniere-container{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.banniere .top-content{
+    position: relative;
+    z-index: 99;
+    display: flex;
+}
+
+.banniere .back-content{
+    z-index: 1;
+    display: flex;
+}
+
+.banniere .back-content .bg-presentation{
+    background: url(../imgs/danseurs-boloye2.jpg) no-repeat;
+    width: 40%;
+    height: 100%;
+    background-size: cover;
+}
+
+.banniere .back-content .bg-porotour{
+    background: url(../imgs/mont-korogho2.jpg) no-repeat;
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+}
+
+.banniere .top-content .content-presentation{
+    position: relative;
+    width: 40%;
+    height: 100%;
+}
+
+.banniere .top-content .content-presentation .content-porotour-overlay{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #0349429c;  
+}
+
+.banniere .top-content .content-presentation .content{
+    z-index: 2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.banniere .top-content .content-porotour{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banniere .h1{
+    font-size: 45px;
+    line-height: 80px;
+}
+
+.banniere .top-content .content-porotour .porotour-title{
+    font-size: 45px;
+    line-height: 80px;
+}
+
+.banniere .cool-back-section-effect{
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 26px;
+    background-image: url(../imgs/header-coastline.png);
+}
+
+
+.banniere .porotour-btn{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding: .5rem .75rem;
+}
+
+.banniere .porotour-title{
+    font-size: 100px !important;
+}

@@ -1,0 +1,114 @@
+
+.main-card{
+    display: flex;
+    width: 75%;
+    height: 375px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.box-card .top-content{
+    position: absolute;
+    width: 100%;
+    z-index: 15;
+    transform: skew(13.2deg, 0);
+    bottom: 0;
+    padding: 20px;
+}
+
+.box-card .top-content a.label{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.box-card .top-content{
+    position: absolute;
+    width: 100%;
+    z-index: 15;
+    transform: skew(13.2deg, 0);
+    bottom: 0;
+    padding: 20px;
+}
+
+.box-card .top-content a.label{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.box-card .overlay{
+    background-image: linear-gradient(0deg, #282828 0%, rgba(25,25,25,0) 44%, rgba(255,255,255,0) 48%);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+#presentation-card{
+    width: 60%;
+    transform: skew(-13.2deg, 0);
+    position: relative;
+    left: 55px;
+    overflow: hidden;
+    background: #034942;
+    position: relative
+}
+
+#presentation-card .content{
+    position: relative;
+    transform: skew(13.2deg, 0);
+    overflow: hidden;
+}
+
+#presentation-card .content video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#menu-items{
+    width: 35%;
+    margin-left: auto;
+    transform: skew(-13.2deg, 0);
+    position: relative;
+    left: 40px;
+}
+
+#menu-items .separation{
+    margin-top: 40px;
+}
+
+#menu-items .content{
+    
+}
+
+.menu-item{
+    transform: skew(360deg, 0);
+    height: 45%;
+}
+
+.menu-item .content{
+    transform: skew(12deg, 0);
+}
+
+#faune-card{
+    background-image: url(../imgs/animal-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#faune-card .overlay{
+    background-image: linear-gradient(
+        0deg
+        , #614518 0%, rgba(25,25,25,0) 44%, rgba(255,255,255,0) 48%);
+}
+
+#reflief-card{
+    background-image: url(../imgs/mont-korogho3.jpg);
+    background-size: cover;
+    background-position: center;
+}

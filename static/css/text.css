@@ -1,0 +1,29 @@
+/* Taille */
+.text-arial-black{
+    font-family: "arial black";
+}
+
+.text-birdlove{
+    font-family: birdlove;
+}
+
+.text-nav-logo{
+    font-size: 40px;
+}
+
+.text-25{
+    font-size: 25px;
+}
+
+.h1{
+    font-size: 40px;
+}
+
+.h2{
+    font-size: 30px;
+}
+
+/* Alignement */
+.text-center{
+    text-align: center;
+}

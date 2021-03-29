@@ -1,0 +1,387 @@
+@font-face {
+    font-family: "birdlove";
+    src: url("../polices/Birdlove.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../polices/Roboto-Regular.ttf");
+}
+
+body{
+    margin: 0;
+    font-family: Roboto;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.d-none{
+    display: none;
+}
+
+footer{
+    position: relative;
+}
+
+footer .f-items{
+    margin-right: 140px;
+}
+
+footer .logos-links > a{
+    font-size: 1.25rem;
+    margin-right: 1.5rem;
+}
+
+footer .f-title{
+    font-family: "arial black";
+    font-weight: bold;
+    font-size: 20px;
+    color: #034942;
+}
+
+footer .f-links{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+footer .f-links li{
+    margin-bottom: 5px;
+}
+
+footer .f-links li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.hr-foret{
+    background: url(../imgs/trees.png) bottom center repeat-x;
+    height: 3.8125rem;
+    margin-top: 2rem;
+}
+
+.hr-dotted{
+    background: url(../imgs/hr1.png) top center repeat-x;
+    clear: both;
+    padding-top: 3rem;    
+}
+
+/* Positions */
+.position-absolute{
+    position: absolute;
+}
+
+.position-relative{
+    position: relative;
+}
+
+
+/* Conteneur */
+.container-2{
+    margin: 0px 190px;
+}
+
+/* */
+.bottom-illustrations{
+    position: absolute;
+    top: -10px;
+}
+
+.bottom-illustrations .illustration{
+    position: absolute;
+}
+
+#bague-sef-1{
+    width: 100px;
+    left: 120px;
+    top: -30px;
+}
+
+#masque-sef-1{
+    width: 100px;
+    top: 35px;
+    left: 20px;
+}
+
+#masque-sef-2{
+    width: 80px;
+    top: 130px;
+    left: 110px;
+}
+
+.porotour-divider
+{
+	position: relative;
+	height: 1px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, #034942, transparent);
+}
+
+.atout-cards{
+    display: flex;
+}
+
+.atout-cards a{
+    flex-grow: 1;
+    color: #fff;        
+}
+
+.atout-cards a .atout-card{
+    width: 100%;
+    height: 250px;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    top: 0;   
+}
+
+.atout-card .top-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-family: "arial black";
+    color: #fff;
+    text-align: center;
+    background-image: linear-gradient(0deg, #282828 0%, rgba(25,25,25,0) 44%, rgba(255,255,255,0) 48%);
+    background-color: rgba(0, 0, 0, 0.469);
+    transition: all 1s ease;
+}
+
+.atout-card:hover .top-content{
+    transform: scale(1.2);
+}
+
+.atout-card .top-content span{
+    max-width: 200px;
+}
+
+#histoire-card{
+    background-image: url(../imgs/poro2.jpg);
+}
+
+#nourriture-card{
+    background-image: url(../imgs/plat-nord-2.jpg);
+}
+
+#villages-card{
+    background-image: url(../imgs/village-1.jpg);
+}
+
+#activites-card{
+    background-color: #fff;
+    background-image: url(../imgs/tourisme.png);
+}
+
+#galerie-card{
+    background-image: url(../imgs/muse.jpg);
+}
+
+.bague-illustration-2{
+    position: absolute;
+    top: 280px;
+    right: 20px;
+}
+
+/* PoroTour */
+
+#faune .card-animal{
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+}
+
+#faune .card-animal figcaption{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+#histoire .porotour-legende-2{
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    background-color: #034942;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#activites{
+    height: 400px;
+    display: flex;
+}
+
+#activites .description, #activites .contenu{
+    color: #fff;
+    flex-grow: 1;
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+#activites .description{
+    align-items: center;
+    justify-content: center;
+    line-height: 60px;
+    background-color: #0349429c;
+}
+
+#activites .contenu{
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.578);
+}
+
+#activites .contenu > div{
+    width: 80%;
+}
+
+
+
+/* Effets de ligne */
+
+.native-cool-back-section-effect{
+    position: relative;
+    width: 100%;
+    height: 26px;
+    background-image: url(../imgs/header-coastline.png);
+}
+
+.native-cool-back-section-effect-2{
+    position: relative;
+    width: 100%;
+    height: 3.4375rem;
+    background-image: url(../imgs/header-coastline-2.svg);
+    background-size: cover;
+}
+
+/* Section */
+.porotour-section .content{
+    margin: 40px;
+    margin-left: 120px;
+}
+
+.porotour-section .content.right{
+    margin-left: 0;
+    margin-right: 120px;
+}
+
+.section-text{
+    color: #000;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.section-text-center{
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.section-wp-100{
+    width: 50%;
+    overflow: hidden;
+}
+
+/* Images */
+
+.rounded{
+    border-radius: 10px;
+}
+
+.img-circle{
+    border-radius: 50%;
+}
+
+.porotour-legende{
+    margin-top: 10px;
+    border-radius: 20px;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    background-color: #034942;
+    font-weight: bold;
+    text-align: center;
+}
+
+.porotour-legende-2{
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    background-color: #03494268;
+    font-weight: bold;
+}
+
+.porotour-legende-3{
+    color: #282828;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Background color */
+
+.bg-muted{
+    background-color: #f8f8f8;
+}
+
+.bg-dark{
+    background-color: #000;
+}
+
+/* Background */
+
+.bg-cover{
+    background-size: cover;
+}
+
+.bg-center{
+    background-position: center;
+}
+
+/* Boutons */
+
+.porotour-btn{
+    text-decoration: none;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+}
+
+.porotour-btn.porotour-btn-caret::after {
+    margin-left: .255em;
+    content: "►";
+    padding-top: 3px;
+    font-size: 0.8rem;
+}
+
+.porotour-btn.porotour-btn-white{
+    background-color: #fff;
+    color: #000;
+}
+
+.porotour-btn.porotour-btn-green{
+    font-weight: 700;
+    background-color: #034942;
+    color: #fff !important;
+}
+
+.shadow-4{
+    box-shadow:  0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%)
+}
