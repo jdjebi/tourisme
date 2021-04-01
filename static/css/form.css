@@ -6,7 +6,7 @@ form div label, form div input[type=text]{
     display: inline-block;
 }
 
-form div input[type=text], form div input[type=date]{
+form div input[type=text], form div input[type=date], form div input[type=email]{
     padding: 5px;
     width:200px;
     border: 1px solid #034942;
