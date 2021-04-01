@@ -81,7 +81,7 @@
                     </div>
                     <div>
                         <label for="email">Email:</label>
-                        <input id="email" type="email" name="emailt" required>
+                        <input id="email" type="email" name="email" required>
                     </div>
                     <div>
                         <button class="porotour-btn porotour-btn-green" type="submit">Envoyer</button>
