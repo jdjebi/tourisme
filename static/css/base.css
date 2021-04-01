@@ -15,12 +15,18 @@ body{
     -webkit-font-smoothing: antialiased;
 }
 
+.border-muted{
+    border: 1px solid #ddd;
+}
+
 .d-none{
     display: none;
 }
 
 footer{
+    padding-top: 20px;
     position: relative;
+    background-color: #fff;
 }
 
 footer .f-items{
@@ -310,6 +316,7 @@ footer .f-links li a{
     border-radius: 50%;
 }
 
+/* Légende */
 .porotour-legende{
     margin-top: 10px;
     border-radius: 20px;
@@ -342,6 +349,10 @@ footer .f-links li a{
 
 .bg-dark{
     background-color: #000;
+}
+
+.bg-green{
+    background-color: #034942
 }
 
 /* Background */

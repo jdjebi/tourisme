@@ -71,6 +71,14 @@
     margin-left: 0 !important;
 }
 
+.p-1{
+    padding: 1em;
+}
+
+.p-3{
+    padding: 3em;
+}
+
 .pt-1{
     padding-top: 1em;
 }
@@ -79,6 +87,9 @@
     padding-top: 2em;
 }
 
+.pt-3{
+    padding-top: 3em;
+}
 
 .pb-1{
     padding-bottom: 1em;

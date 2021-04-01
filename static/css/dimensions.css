@@ -35,8 +35,12 @@
     width: 100% !important;
 }
 
+.h-200{
+    height: 200px !important;
+}
+
 .h-300{
-    height: 200px;
+    height: 300px;
 }
 
 .circle-400{

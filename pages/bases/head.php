@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="static/css/cards.css">
 <link rel="stylesheet" href="static/css/colors.css">
 <link rel="stylesheet" href="static/css/text.css">
 <link rel="stylesheet" href="static/css/flexbox.css">
@@ -7,3 +8,4 @@
 <link rel="stylesheet" href="static/css/nav.css">
 <link rel="stylesheet" href="static/css/banniere.css">
 <link rel="stylesheet" href="static/css/accueil.menu.css">
+<link rel="stylesheet" href="static/css/form.css">

@@ -11,9 +11,9 @@
 
 .porotour-nav .nav-block-container{
     border-bottom: 0;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 0 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 10px;
 }
 
 .porotour-nav .nav-menu{
@@ -44,22 +44,24 @@
 .porotour-nav .nav-menu .navbar .nav-links .nav-link{
     padding: 1.5625rem 1.875rem;
     border-right: 1px solid #ebebeb;
+    cursor: pointer;
 }
 
 .porotour-nav .nav-menu .navbar .nav-links .nav-link a{
     color: #111317;
     text-decoration: none;
     font-size: 1.125rem;
-    font-weight: bold;
-    transition: color 1s ease;
+    transition: color 0.4s ease;
 }
 
 .porotour-nav .nav-menu .navbar .nav-links .nav-link.active a{
     color: #03675d;
+    font-weight: bold;
 }
 
 .porotour-nav .nav-menu .navbar .nav-links .nav-link:hover > a{
     color: #03675d;
+    font-weight: bold;
 }
 
 .nav-link.nav-dropdown-link{

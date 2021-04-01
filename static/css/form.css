@@ -1,0 +1,13 @@
+form div{
+    margin-bottom: 20px
+}
+form div label, form div input[type=text]{
+    width:150px;
+    display: inline-block;
+}
+
+form div input[type=text], form div input[type=date]{
+    padding: 5px;
+    width:200px;
+    border: 1px solid #034942;
+}

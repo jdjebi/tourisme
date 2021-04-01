@@ -1,4 +1,9 @@
 /* Taille */
+
+.text-bold{
+    font-weight: bold;
+}
+
 .text-arial-black{
     font-family: "arial black";
 }

@@ -28,9 +28,11 @@
                                 <div class="h1">Sur le site touristique</div>
                                 <div class="h1">De la Région du Poro</div>
                             </div>
+                            <!--
                             <div class="mt-5">
                                 <a href="#porotour-menu" class="text-arial-black porotour-btn porotour-btn-white">Decouvrir</a>
                             </div>
+                            -->
                         </div>
                     </div>
                 </div>
@@ -39,7 +41,7 @@
                         <div class="h1 text-birdlove porotour-title">PoroTour 2021</div>
                         <div class="mt-1 text-25">La plus grande excursion touristique de la Région du Poro</div>
                         <div class="mt-3 text-center">
-                            <a href="#porotour-menu" class="text-arial-black porotour-btn porotour-btn-white">Participer !</a>
+                            <a href="inscription.php" class="text-arial-black porotour-btn porotour-btn-white">Participer !</a>
                         </div>
                     </div>
                 </div>
@@ -339,16 +341,16 @@
                     <div>
                         <div class="d-flex flex-grow-box mt-1">
                             <div class="h-300 bg-cover position-relative" style="background-image: url(static/imgs/poro1.jpg);">
-                                <figcaption class="porotour-legende-2">Perdrix</figcaption>
+                                <figcaption class="porotour-legende-2">Danse boloye</figcaption>
                             </div>
                             <div class="h-300 bg-cover bg-center position-relative" style="background-image: url(static/imgs/culture-2.jpg);">
-                                <figcaption class="porotour-legende-2">Perdrix</figcaption>
+                                <figcaption class="porotour-legende-2">Machine tissé</figcaption>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="section-wp-100 bg-cover position-relative" style="background-image: url(static/imgs/culture-1.jpg);">
-                    <figcaption class="porotour-legende-2">Perdrix</figcaption>
+                    <figcaption class="porotour-legende-2">Musée Pélèforo Gbon Coulibaly de Korhogo</figcaption>
                 </div>
             </div>
         </section>
@@ -423,7 +425,7 @@
                         Il s'agit de visiter l'ensemble des activités et sites touristiques de la région avec en plus des d'activités tels que des dégustations culinaires.
                     </div>
                     <div class="mt-2">
-                        <a href="pages/activites.php#" class="porotour-btn porotour-btn-white text-arial-black porotour-btn-caret">Voir les activités</a>
+                        <a href="activites.php#" class="porotour-btn porotour-btn-white text-arial-black porotour-btn-caret">Voir les activités</a>
                     </div>
                 </div>
            </div>
