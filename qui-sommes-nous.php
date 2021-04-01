@@ -20,11 +20,11 @@
                 <div class="mt-2 d-flex">
                     <div class="text-center m-2">
                         <img class="border-muted w-200 h-200 img-circle" src="static/imgs/djebi.jpg" alt="Photo Dje Bi">
-                        <div class="color-green text-bold mt-1">Dévoloppeur en chef</div>
+                        <div class="color-green text-bold mt-1">Dje Bi Jean-Marc<br>Dévoloppeur en chef</div>
                     </div>
                     <div class="text-center m-2">
                         <img class="border-muted w-200  h-200 img-circle" src="static/imgs/adje.jpg" alt="Photo Dje Bi">
-                        <div class="color-green text-bold mt-1">Dévoloppeur en chef</div>
+                        <div class="color-green text-bold mt-1">Adjé Dominique<br>Agent touristique en chef</div>
                     </div>
                 </div>
             </div>
